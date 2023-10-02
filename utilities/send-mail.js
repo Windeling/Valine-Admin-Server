@@ -140,7 +140,6 @@ exports.notice = (comment) => {
   .text()
   .replace(/\n+/g, "\n")
   .replace(/\n+$/g, "")}
-链接：${url + "#" + comment.get("objectId")}`;
     axios
       .get(
         `https://qmsg.zendee.cn:443/send/${
