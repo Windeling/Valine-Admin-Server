@@ -140,6 +140,7 @@ exports.notice = (comment) => {
   .text()
   .replace(/\n+/g, "\n")
   .replace(/\n+$/g, "")}
+  `
     axios
       .get(
         `https://qmsg.zendee.cn:443/send/${
