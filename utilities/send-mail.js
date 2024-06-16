@@ -169,7 +169,7 @@ exports.send = (currentComment, parentComment) => {
     return;
   }
   const emailSubject =
-    " 「" + process.env.SITE_NAME + "」上有人回复了你啦！快点我";
+    " 「" + process.env.SITE_NAME + "」上有人回复了你";
   const main_color = process.env.MAIN_COLOR ? process.env.MAIN_COLOR : "orange";
   const main_img = process.env.MAIN_IMG
     ? process.env.MAIN_IMG
